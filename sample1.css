@@ -1,0 +1,282 @@
+.head1{
+	padding: 0 2rem;
+	height: 0;
+	overflow: hidden;
+	min-height: 7vh;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.head1 #logo{
+	display: flex;
+	flex-direction: row;
+}
+
+.head1 #logo img{
+	width: 3rem;
+	height: 3rem;
+	padding: .5rem 0;
+}
+
+.head1 #menu{
+	position: absolute;
+	top: 1%;
+	right: 5%;
+	width: 2rem;
+	height: 2rem;
+	padding: .5rem 0;
+	filter: contrast(100);
+	display: none;
+	cursor: pointer;
+}
+
+
+.head1 #header{
+	font-family: "RixSGo", sans-serif;
+	letter-spacing: -.1rem;
+	font-size: 2rem;
+	padding-left: .5rem;
+	margin-top: 1rem;
+}
+
+.head1 a{
+	text-decoration: none;
+	color: black;
+	font-family: "RixSGo", sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	letter-spacing: -.1rem;
+	padding: 0 .52rem;
+}
+
+.head1 #tabs{
+	padding: 1.5rem;
+	text-align: center;
+}
+
+
+.head1 a:hover{
+	text-decoration: underline;
+}
+
+.head1 a:active{
+	opacity: 50%;
+}
+
+.content{
+	background: url(/pics/hp.jpg);
+	background-size: cover;
+	height: 73rem;
+
+}
+
+
+
+.content .msg{
+	height: auto;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	padding: 0%;
+	top:21rem;
+	text-align: center;
+	color: white;
+	font-family: "RixSGo", sans-serif;
+}
+
+.content .msg h1{
+	font-size: 2.75rem;
+	padding: 0;
+	margin-top: .2rem;
+	margin-bottom: .2rem;
+	text-shadow: .1rem .1rem black;
+}
+
+.content .msg h2{
+	font-size: 1.8rem;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: .1rem .1rem black;
+}
+
+.content .msg p{
+	font-size: 1.3rem;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: .1rem .1rem black;
+}
+
+.content button{
+
+	font-family: "RixSGo", sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1rem;
+	background-color: rgb(38, 48, 40);
+	color: white;
+	color:white;
+	margin: 1rem;
+	padding: .5rem 1.5rem;
+	border-radius: 1rem;
+	border: .2rem solid rgb(38, 48, 40);
+
+}
+
+.content button:hover{
+	
+	background-color:transparent;
+	color:white;
+}
+
+.content button:active{
+	transform: translateY(1px);
+}
+
+#gallerytag{
+	text-align: center;
+	font-family: "RixSGo", sans-serif;
+	font-size: 3rem;
+	color: rgb(38, 48, 40);
+	margin-top: 4rem;
+	font-style: italic;
+}
+
+#images{
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+    margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+	justify-content: center;
+}
+
+#images img{
+	filter: grayscale(100%);
+	width: 30rem;
+	height: 20rem;
+	padding: 1.5rem;
+	text-align: center;
+
+}
+
+#as{
+	text-align: center;
+	font-family: "RixSGo", sans-serif;
+	font-size: 3rem;
+	color: rgb(38, 48, 40);
+	margin-top: 10rem;
+	font-style: italic;
+}
+
+#images img:hover{
+	filter: grayscale(0%);
+}
+
+.aboutus{
+	display: flex;
+	flex-wrap: wrap;
+}
+.social{
+	padding-top: 1rem;
+    margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+}
+.social h1{
+	color: rgb(38, 48, 40);
+	font-family: "RixSGo", sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: -.1rem;
+	padding-top: 1rem;
+	width: 100%;
+}
+.social img{
+	align-content: center;
+	width: 5rem;
+	height: 5rem;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.social img:hover{
+	transform: translateY(1px);
+}
+
+.social img:active{
+	transform: translateY(-1px);
+}
+
+.second{
+	padding-top: 1rem;
+	width: auto;
+	text-align: center;
+
+}
+
+.second img{
+	padding-top: 2rem;
+	width:35rem;
+	filter: contrast(100);
+}
+
+.second h1{
+	color: rgb(38, 48, 40);
+	font-family: "RixSGo", sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: -.1rem;
+	
+}
+
+
+.second h2{
+	padding-top: 2rem;
+	color: rgb(38, 48, 40);
+	font-family: "RixSGo", sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: -.1rem;
+}
+
+.second p{
+	text-align: justify;
+	padding: 0 10rem;
+	color: rgb(38, 48, 40);
+	font-family: "RixSGo", sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: -.1rem;
+}
+
+
+
+body{
+	overflow: scroll;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 750px){
+	.head1 #menu{
+		display: initial;
+	}
+
+	#tabs{
+	margin: auto;
+	margin-top: -1.5rem;
+	}
+
+}
+
+.collapse{
+	height: 7rem;
+}
+
+html {
+	scroll-behavior: smooth;
+  }

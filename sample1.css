@@ -1,5 +1,6 @@
 .head1{
-	padding: .5rem 2rem;
+	padding: 0 2rem;
+	margin-bottom: .75rem;
 	height: 3rem;
 	overflow: hidden;
 	min-height: 7vh;

@@ -16,9 +16,9 @@
 }
 
 .head1 #logo img{
-	width: 2.5rem;
-	height: 2.5rem;
-	padding: .8rem 0;
+	width: 2rem;
+	height: 2rem;
+	padding: 1rem 0;
 }
 
 .head1 #menu{
@@ -91,7 +91,7 @@
 }
 
 .content .msg h1{
-	font-size: 2.75rem;
+	font-size: 2rem;
 	padding: 0;
 	margin-top: .2rem;
 	margin-bottom: .2rem;
@@ -99,7 +99,7 @@
 }
 
 .content .msg h2{
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 	padding: 0;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -107,7 +107,7 @@
 }
 
 .content .msg p{
-	font-size: 1.3rem;
+	font-size: 1rem;
 	padding: 0;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -162,9 +162,9 @@
 
 #images img{
 	filter: grayscale(100%);
-	width: 30rem;
-	height: 20rem;
-	padding: 1.5rem;
+	width: 25rem;
+	height: 16rem;
+	padding: 1rem 2.4rem;
 	text-align: center;
 
 }
@@ -280,7 +280,7 @@ body{
 }
 
 .collapse{
-	height: 7rem;
+	height: 9rem;
 }
 
 html {

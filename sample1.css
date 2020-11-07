@@ -249,7 +249,8 @@
 
 .second p{
 	text-align: justify;
-	padding: 0 5rem;
+	padding: 0 3rem;
+	margin: 2rem 0;
 	color: rgb(38, 48, 40);
 	font-family: "RixSGo", sans-serif;
 	font-size: 1.5rem;
@@ -273,12 +274,10 @@ body{
 	.head1 #tabs{
 	margin: auto;
 	margin-top: -1.5rem;
-	padding-right: 0rem;
-	padding-left: 0rem;
+	padding: 2rem 6rem;
 	}
 
 }
-
 
 .collapse{
 	height: 7rem;
@@ -289,5 +288,5 @@ html {
   }
 
 #icon{
-	width: 25rem;
+	width: 20rem;
 }

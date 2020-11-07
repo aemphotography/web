@@ -249,7 +249,7 @@
 
 .second p{
 	text-align: justify;
-	padding: 0 7rem;
+	padding: 0 5rem;
 	color: rgb(38, 48, 40);
 	font-family: "RixSGo", sans-serif;
 	font-size: 1.5rem;
@@ -289,5 +289,5 @@ html {
   }
 
 #icon{
-	width: 30rem;
+	width: 25rem;
 }
